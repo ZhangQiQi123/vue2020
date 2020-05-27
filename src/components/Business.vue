@@ -31,7 +31,7 @@
             <el-col :span="18" :offset="3">
                 <el-card :body-style="{ padding: '0px' }">
                     <el-image :src="src4" style="height:600px;width:100%" class="image"></el-image>
-                    <div style="padding: 14px;text-align:center;">
+                    <div style="padding:20px;text-align:center;">
                         <span style="font-weight:bold;font-size:20px;">为什么选择我们？</span>
                         <div class="bottom clearfix"></div>
                     </div>
@@ -45,27 +45,48 @@
                         <div slot="header" class="clearfix">
                              <span>国际化视野</span>
                         </div>
-                        &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp;我们已在中德双边关系中，获得了大量的案例，有非常成熟的相关经验，对于处理中德企业遇到的问题能快速响应。
+                        <div class="aaa">
+                            <ul>
+                                <li>我们已在中德双边关系中</li>
+                                <li>获得了大量的案例</li>
+                                <li>有非常成熟的相关经验</li>
+                                <li>对于处理中德企业遇到的问题能快速响应</li>
+                            </ul>
+                        </div>
                     </el-card>
                 </el-col>
                 <el-col :span="8">
                     <el-card :body-style="{ padding: '0px' }" shadow="hover">
                     <div slot="header" class="clearfix">
-                            <span>7x24 保障</span>
-                        </div>
-                        &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp;我们对您的产品健康平稳运行非常在意，所以会有专业团队值守，随时为您遇到的情况快速处理。
+                        <span>7x24 保障</span>
+                    </div>
+                    <div class="aaa">
+                        <ul>
+                            <li>我们对您的产品健康平稳运行非常在意</li>
+                            <li>所以会有专业团队值守</li>
+                            <li>随时为您遇到的情况快速处理</li>
+                        </ul>
+                    </div>
+                        
                     </el-card>
                 </el-col>
                 <el-col :span="8">
                     <el-card :body-style="{ padding: '0px' }" shadow="hover">
-                     <div slot="header" class="clearfix">
+                        <div slot="header" class="clearfix">
                             <span>优质筛选</span>
                         </div>
-                        &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp;广受好评的获客系统，为您获取优质的客户，在企业合作的同时，省时省力，快捷高效。
+                        <div class="aaa">
+                            <ul>
+                                <li> 广受好评的获客系统</li>
+                                <li>为您获取优质的客户</li>
+                                <li>在企业合作的同时，省时省力，快捷高效</li>
+                            </ul>
+                        </div>
                     </el-card>
                 </el-col>
              </el-col>
         </el-row>
+        
         <el-row>
             <el-col :span="18" :offset="3">
                 <el-col :span="8">
@@ -73,7 +94,14 @@
                     <div slot="header" class="clearfix">
                             <span>科技研发</span>
                         </div>
-                        &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp;多年的科技研发经验，专注于企业软件开发，对定制化需求有独到的见解，选择我们就是迈向成功的基石
+                         <div class="aaa">
+                            <ul>
+                                <li> 多年的科技研发经验</li>
+                                <li>专注于企业软件开发</li>    
+                                <li>对定制化需求有独到的见解</li>
+                                <li>选择我们就是迈向成功的基石</li>
+                            </ul>
+                         </div>
                     </el-card>
                 </el-col>
                 <el-col :span="8">
@@ -81,7 +109,12 @@
                       <div slot="header" class="clearfix">
                              <span>运营团队</span>
                         </div>
-                        &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp;对于您的企业在中德双边经营中遇到的问题，专业的运营团队会为您保驾护航，提供成熟的孵化运营。
+                         <div class="aaa">
+                            <ul>
+                                <li>对于您的企业在中德双边经营中遇到的问题</li>    
+                                <li>专业的运营团队会为您保驾护航，提供成熟的孵化运营</li>
+                            </ul>
+                         </div>
                     </el-card>
                 </el-col>
                 <el-col :span="8">
@@ -89,9 +122,20 @@
                          <div slot="header" class="clearfix">
                              <span>见解独到</span>
                         </div>
-                        &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp;对于中企在德经营，德企在中经营所遇到的相关运营，法务，会计审计等问题，可以提供专业的意见及帮助。
+                         <div class="aaa">
+                            <ul>
+                                <li>对于中企在德经营</li> 
+                                <li>德企在中经营所遇到的相关运营，法务，会计审计等问题</li>
+                                <li>可以提供专业的意见及帮助</li>   
+                            </ul>
+                         </div>
                     </el-card>
                 </el-col>
+            </el-col>
+        </el-row>
+        <el-row :gutter="20">
+            <el-col :span="18" :offset="3" style="height:50px;padding-top:10px;">
+                <span style="font-weight:bold;font-size:20px;">服务内容</span>
             </el-col>
         </el-row>
         <el-row :gutter="20">
@@ -147,7 +191,7 @@
                             <el-image :src="src16" style="height:400px;" class="image"></el-image>
                             <div style="padding: 14px;">
                                 <span>获客分析</span>
-                                <div class="bottom clearfix">为您的企业获得优质客源，带来丰厚的利润。</div>
+                                <div class="bottom clearfix">以最真诚的服务，精心为您的企业获得优质客源，带来更多丰厚的利润。</div>
                             </div>
                         </el-card>
                     </el-col>
@@ -233,6 +277,17 @@ html body{
 .clearfix span{
     font-size: 1.17em;
     font-weight: bold;
+}
+.aaa{
+    height:100px;
+    font-size: 15px;
+    text-align: center;
+}
+ul li{
+    list-style: none;
+}
+.bottom{
+    font-size: 15px;
 }
 </style>
 
